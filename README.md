@@ -1,4 +1,3 @@
-ROS 2 examples
-==============
+# Minimal "addition\_server" cookbook recipes
 
-To see some of these examples in use, visit the [ROS 2 Tutorials page](https://docs.ros.org/en/rolling/Tutorials.html).
+This package contains a few examples which show how to create services.
