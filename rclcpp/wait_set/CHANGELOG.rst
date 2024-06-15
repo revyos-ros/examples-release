@@ -2,9 +2,6 @@
 Changelog for package examples_rclcpp_wait_set
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.20.0 (2024-04-26)
--------------------
-
 0.19.3 (2024-04-16)
 -------------------
 * fix: Fixed compilation after API change of TimerBase::execute (`#375 <https://github.com/ros2/examples/issues/375>`_)
