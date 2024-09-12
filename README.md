@@ -1,3 +1,48 @@
+## examples (humble) - 0.15.2-1
+
+The packages in the `examples` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r humble examples --override-release-repository-push-url git@github.com:revyos-ros/examples-release.git` on `Thu, 12 Sep 2024 03:59:44 -0000`
+
+These packages were released:
+- `examples_rclcpp_async_client`
+- `examples_rclcpp_cbg_executor`
+- `examples_rclcpp_minimal_action_client`
+- `examples_rclcpp_minimal_action_server`
+- `examples_rclcpp_minimal_client`
+- `examples_rclcpp_minimal_composition`
+- `examples_rclcpp_minimal_publisher`
+- `examples_rclcpp_minimal_service`
+- `examples_rclcpp_minimal_subscriber`
+- `examples_rclcpp_minimal_timer`
+- `examples_rclcpp_multithreaded_executor`
+- `examples_rclcpp_wait_set`
+- `examples_rclpy_executors`
+- `examples_rclpy_guard_conditions`
+- `examples_rclpy_minimal_action_client`
+- `examples_rclpy_minimal_action_server`
+- `examples_rclpy_minimal_client`
+- `examples_rclpy_minimal_publisher`
+- `examples_rclpy_minimal_service`
+- `examples_rclpy_minimal_subscriber`
+- `examples_rclpy_pointcloud_publisher`
+- `launch_testing_examples`
+
+Version of package(s) in repository `examples`:
+
+- upstream repository: https://github.com/ros2/examples.git
+- release repository: https://github.com/revyos-ros/examples-release.git
+- rosdistro version: `0.15.2-1`
+- old version: `0.15.1-1`
+- new version: `0.15.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## examples (jazzy) - 0.19.3-3
 
 The packages in the `examples` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy examples --override-release-repository-push-url git@github.com:revyos-ros/examples-release.git` on `Sat, 15 Jun 2024 04:41:50 -0000`
