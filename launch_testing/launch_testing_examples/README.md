@@ -14,9 +14,8 @@ launch_test launch_testing_examples/check_node_launch_test.py
 ```
 
 There might be situations where nodes, once launched, take some time to actually start and we need to wait for the node to start to perform some action.
-We can simulate this using ``launch.actions.TimerAction``.
-This example shows one way to detect when a node has been launched.
-We delay the launch by 5 seconds, and wait for the node to start with a timeout of 20 seconds.
+We can simulate this using ``launch.actions.TimerAction``. This example shows one way to detect when a node has been launched.
+We delay the launch by 5 seconds, and wait for the node to start with a timeout of 8 seconds.
 
 ### `check_multiple_nodes_launch_test.py`
 
@@ -65,7 +64,7 @@ Usage:
 launch_test launch_testing_examples/hello_world_launch_test.py
 ```
 
-This test is a simple example on how to use the ``launch_testing``.
+This test is a simple example on how to use the ``launch_testing``. 
 
 It launches a process and asserts that it prints "hello_world" to ``stdout`` using ``proc_output.assertWaitFor()``.
 Finally, it checks if the process exits normally (zero exit code).
