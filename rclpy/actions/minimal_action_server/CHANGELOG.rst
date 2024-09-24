@@ -2,12 +2,42 @@
 Changelog for package examples_rclpy_minimal_action_server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.15.2 (2024-07-26)
+0.19.4 (2024-06-27)
 -------------------
-* Add guard on Python single goal action server example (`#380 <https://github.com/ros2/examples/issues/380>`_) (`#383 <https://github.com/ros2/examples/issues/383>`_)
+* Add guard on Python single goal action server example (`#380 <https://github.com/ros2/examples/issues/380>`_) (`#381 <https://github.com/ros2/examples/issues/381>`_)
+  Co-authored-by: Ruddick Lawrence <679360+mrjogo@users.noreply.github.com>
 * Contributors: mergify[bot]
 
-0.15.1 (2022-11-07)
+0.19.3 (2024-04-16)
+-------------------
+
+0.19.2 (2024-03-28)
+-------------------
+
+0.19.1 (2023-07-11)
+-------------------
+
+0.19.0 (2023-04-27)
+-------------------
+
+0.18.0 (2023-04-11)
+-------------------
+
+0.17.1 (2023-03-01)
+-------------------
+
+0.17.0 (2023-02-14)
+-------------------
+* [rolling] Update maintainers - 2022-11-07 (`#352 <https://github.com/ros2/examples/issues/352>`_)
+* Contributors: Audrow Nash
+
+0.16.2 (2022-11-02)
+-------------------
+
+0.16.1 (2022-09-13)
+-------------------
+
+0.16.0 (2022-04-29)
 -------------------
 
 0.15.0 (2022-03-01)
