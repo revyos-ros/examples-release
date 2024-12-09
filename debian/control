@@ -1,0 +1,12 @@
+Source: ros-humble-examples-rclcpp-wait-set
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-example-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-std-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-examples-rclcpp-wait-set
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-example-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: Example of how to use the rclcpp::WaitSet directly.
