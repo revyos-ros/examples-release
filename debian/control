@@ -1,0 +1,12 @@
+Source: ros-humble-examples-rclpy-minimal-client
+Section: misc
+Priority: optional
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-humble-ament-copyright <!nocheck>, ros-humble-ament-flake8 <!nocheck>, ros-humble-ament-pep257 <!nocheck>, ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-examples-rclpy-minimal-client
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-humble-example-interfaces, ros-humble-rclpy, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: Examples of minimal service clients using rclpy.
