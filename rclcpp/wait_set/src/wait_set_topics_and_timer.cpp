@@ -71,10 +71,8 @@ int32_t main(const int32_t argc, char ** const argv)
     const auto wait_result = wait_set.wait(2s);
     if (wait_result.kind() == rclcpp::WaitResultKind::Ready) {
       if (wait_result.get_wait_set().get_rcl_wait_set().timers[0U]) {
-        if (auto data = one_off_timer->call()) {
-          // The timer callback is executed manually here
-          one_off_timer->execute_callback(data);
-        }
+        // The timer callback is executed manually here
+        one_off_timer->execute_callback();
       } else {
         std_msgs::msg::String msg;
         rclcpp::MessageInfo msg_info;
