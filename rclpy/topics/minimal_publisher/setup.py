@@ -4,7 +4,7 @@ package_name = 'examples_rclpy_minimal_publisher'
 
 setup(
     name=package_name,
-    version='0.15.3',
+    version='0.19.5',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -15,8 +15,8 @@ setup(
     zip_safe=True,
     author='Mikael Arguedas',
     author_email='mikael@osrfoundation.org',
-    maintainer='Aditya Pande, Shane Loretz',
-    maintainer_email='aditya.pande@openrobotics.org, shane@openrobotics.org',
+    maintainer='Aditya Pande, Alejandro Hernandez Cordero',
+    maintainer_email='aditya.pande@openrobotics.org, alejandro@openrobotics.org',
     keywords=['ROS'],
     classifiers=[
         'Intended Audience :: Developers',
@@ -34,6 +34,9 @@ setup(
             ' examples_rclpy_minimal_publisher.publisher_local_function:main',
             'publisher_member_function ='
             ' examples_rclpy_minimal_publisher.publisher_member_function:main',
+            'publisher_member_function_with_wait_for_all_acked ='
+            ' examples_rclpy_minimal_publisher.'
+            'publisher_member_function_with_wait_for_all_acked:main',
         ],
     },
 )
