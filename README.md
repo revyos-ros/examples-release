@@ -1,4 +1,4 @@
-ROS 2 examples
-==============
+# Minimal timer examples
 
-To see some of these examples in use, visit the [ROS 2 Tutorials page](https://docs.ros.org/en/rolling/Tutorials.html).
+This package contains a few different strategies for creating short nodes which have timers.
+The `timer_lambda` and `timer_member_function` examples create subclasses of `rclcpp::Node` and set up an `rclcpp::timer` to periodically call functions which just print Hello to the console. They do the same thing, just using different C++ language features.
