@@ -1,4 +1,5 @@
-ROS 2 examples
-==============
+# Minimal service server cookbook recipes
 
-To see some of these examples in use, visit the [ROS 2 Tutorials page](https://docs.ros.org/en/rolling/Tutorials.html).
+This package contains a few strategies to create service servers.
+The `service` recipe shows how to define a service server in an analog way to ROS 1 and rospy
+The `service_member_function` recipe creates a MinimalService class that processes the incoming requests
