@@ -1,3 +1,4 @@
-# Minimal action server cookbook recipes
+ROS 2 examples
+==============
 
-This package contains a few examples which show how to create action servers.
+To see some of these examples in use, visit the [ROS 2 Tutorials page](https://docs.ros.org/en/rolling/Tutorials.html).
