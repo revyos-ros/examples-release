@@ -1,0 +1,103 @@
+ros-jazzy-examples-rclcpp-wait-set (0.19.5-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Wed, 02 Apr 2025 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.19.4-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Thu, 27 Jun 2024 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.19.3-1noble) noble; urgency=high
+
+  * fix: Fixed compilation after API change of TimerBase::execute (#375 <https://github.com/ros2/examples/issues/375>)
+    Co-authored-by: Janosch Machowinski <mailto:J.Machowinski@cellumation.com>
+  * Contributors: jmachowinski
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Tue, 16 Apr 2024 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.19.2-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Thu, 28 Mar 2024 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.19.1-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Tue, 11 Jul 2023 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.19.0-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Thu, 27 Apr 2023 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.18.0-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Tue, 11 Apr 2023 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.17.1-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Wed, 01 Mar 2023 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.17.0-1noble) noble; urgency=high
+
+  * Update the examples to C++17. (#353 <https://github.com/ros2/examples/issues/353>)
+  * [rolling] Update maintainers - 2022-11-07 (#352 <https://github.com/ros2/examples/issues/352>)
+  * Contributors: Audrow Nash, Chris Lalancette
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Tue, 14 Feb 2023 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.16.2-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Wed, 02 Nov 2022 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.16.1-1noble) noble; urgency=high
+
+  * Add test linting to wait_set and fix issues. (#346 <https://github.com/ros2/examples/issues/346>) (#347 <https://github.com/ros2/examples/issues/347>)
+  * Contributors: mergify[bot]
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Tue, 13 Sep 2022 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.16.0-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Fri, 29 Apr 2022 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.15.0-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Tue, 01 Mar 2022 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.14.0-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Fri, 14 Jan 2022 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.13.0-1noble) noble; urgency=high
+
+
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Mon, 18 Oct 2021 00:00:00 -0000
+
+ros-jazzy-examples-rclcpp-wait-set (0.12.0-1noble) noble; urgency=high
+
+  * Add wait set examples (#315 <https://github.com/ros2/examples/issues/315>)
+  * Contributors: carlossvg
+
+ -- Aditya Pande <aditya.pande@openrobotics.org>  Thu, 05 Aug 2021 00:00:00 -0000
+
+
